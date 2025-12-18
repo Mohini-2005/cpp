@@ -1,10 +1,13 @@
-#include <iostream>  
-using namespace std;  
-enum month {Jan, Feb, Mar, Apr, May, June};  
-int main()  
-{  
-    month mon_name;  
-    mon_name = Mar;  
-    cout << "Month: " << mon_name+2<<endl;  
-    return 0;  
+#include <iostream>
+using namespace std;
+enum month {
+Jan, Feb, Mar, Apr, May, June,
+July, August, September, October, November, December,
+MONTHS_COUNT 
+};
+int main() {
+for (int i = Jan; i < MONTHS_COUNT; i++) {
+cout << i + 1 << endl; 
+}
+return 0;
 }
