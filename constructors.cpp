@@ -25,8 +25,8 @@ class Student{
 };
 
 int main(){
-    Student s1 = Student(101,"jhon");
+    Student s1 = Student(101,"Mohini");
     s1.show();
-    Student s2= Student(102,"jane");
+    Student s2= Student(102,"Rohit");
     s2.show();
 }
