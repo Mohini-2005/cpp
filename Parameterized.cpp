@@ -18,9 +18,9 @@ class hahaha {
 };  
 int main(void) 
 {  
-    hahaha emp1 =hahaha(81, "Mohini", 23000);  
-    hahaha emp2=hahaha(85, "Rohit", 100);   
-    emp1.show();    
-    emp2.show();    
+    hahaha M1 =hahaha(81, "Mohini", 23000);  
+    hahaha M2=hahaha(85, "Rohit", 100);   
+    M1.show();    
+    M2.show();    
     return 0;  
 } 
