@@ -1,20 +1,20 @@
 #include <iostream>  
 using namespace std; 
-class Employee  
+class student  
  {  
    public:  
-        Employee()    
+        student()    
         {    
             cout<<"Constructor"<<endl;    
         }    
-        ~Employee()    
+        ~student()    
         {    
             cout<<"Destructor"<<endl;    
         }  
 };  
 int main(void)   
 {  
-    Employee e1;    
-    Employee e2;  
+    student s1;    
+    student s2;  
     return 0;  
 }
