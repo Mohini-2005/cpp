@@ -30,7 +30,7 @@ cout<< " Name : " << name << " \n " << " Hno : " << addr->hno << " \n " << " Cit
 int main( ) {  
 Test obj1= Test( 45 ,"VIKASNAGAR","PUNE" );  
 Test obj2 = Test( 65, " DEHUROAD","VATA SKIM" );  
-Address a1 = Address( "DEEPAK",&obj1 );  
+Address a1 = Address( "Mohini",&obj1 );  
 Address a2 = Address( "MIKEY",&obj2 );  
 cout << " Below are the details : " << endl << " ------------------------------ " << endl;  
 a1.display( );  
