@@ -1,28 +1,26 @@
 #include <iostream>
-using namespace std; 
+using namespace std;
+
 class Decrement {
 private:
     int val;
 
 public:
-    
     Decrement(int v) : val(v) {}
 
-    x)
+    
     Decrement operator--() {
-        --val; 
-        return *this;  
+        --val;
+        return *this;
     }
 
-   
     void display() {
         cout << "The Value: " << val << endl;
     }
 };
 
-int main() 
-{
-    Decrement obj(15); 
+int main() {
+    Decrement obj(15);
 
     cout << "The value before decrement: ";
     obj.display();
